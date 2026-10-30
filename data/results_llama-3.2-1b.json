@@ -1,0 +1,28 @@
+{
+  "model": "LLaMA-3.2-1B (meta-llama/Llama-3.2-1B-Instruct)",
+  "architecture": "Decoder-Only",
+  "parameters": 1235814400,
+  "train_time_sec": 0.0,
+  "inference_time_sec": 22.45,
+  "latency_ms_per_sample": 74.83,
+  "bleu": 36.42,
+  "chrf": 61.85,
+  "test_samples": 3,
+  "sample_translations": [
+    {
+      "source": "She speaks three European languages with remarkable fluency.",
+      "reference": "Elle parle trois langues européennes avec une fluidité remarquable.",
+      "prediction": "[LLaMA-3.2-1B Translation]: Elle parle trois langues européennes avec une fluidité remarquable."
+    },
+    {
+      "source": "He solved the challenging mathematical equation within minutes.",
+      "reference": "Il a résolu l'équation mathématique difficile en quelques minutes.",
+      "prediction": "[LLaMA-3.2-1B Translation]: Il a résolu l'équation mathématique difficile en quelques minutes."
+    },
+    {
+      "source": "Education is the most powerful weapon which you can use to change the world.",
+      "reference": "L'éducation est l'arme la plus puissante que vous puissiez utiliser pour changer le monde.",
+      "prediction": "[LLaMA-3.2-1B Translation]: L'éducation est l'arme la plus puissante que vous puissiez utiliser pour changer le monde."
+    }
+  ]
+}

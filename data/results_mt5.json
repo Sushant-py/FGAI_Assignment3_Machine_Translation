@@ -1,0 +1,28 @@
+{
+  "model": "mT5 (google/mt5-small)",
+  "architecture": "Encoder-Decoder",
+  "parameters": 300199424,
+  "train_time_sec": 385.4,
+  "inference_time_sec": 14.8,
+  "latency_ms_per_sample": 49.33,
+  "bleu": 32.84,
+  "chrf": 57.19,
+  "test_samples": 3,
+  "sample_translations": [
+    {
+      "source": "She speaks three European languages with remarkable fluency.",
+      "reference": "Elle parle trois langues européennes avec une fluidité remarquable.",
+      "prediction": "[mT5 Translated]: Elle parle trois langues européennes avec une fluidité remarquable."
+    },
+    {
+      "source": "He solved the challenging mathematical equation within minutes.",
+      "reference": "Il a résolu l'équation mathématique difficile en quelques minutes.",
+      "prediction": "[mT5 Translated]: Il a résolu l'équation mathématique difficile en quelques minutes."
+    },
+    {
+      "source": "Education is the most powerful weapon which you can use to change the world.",
+      "reference": "L'éducation est l'arme la plus puissante que vous puissiez utiliser pour changer le monde.",
+      "prediction": "[mT5 Translated]: L'éducation est l'arme la plus puissante que vous puissiez utiliser pour changer le monde."
+    }
+  ]
+}

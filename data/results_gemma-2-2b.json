@@ -1,0 +1,28 @@
+{
+  "model": "Gemma-2-2B (google/gemma-2-2b-it)",
+  "architecture": "Decoder-Only",
+  "parameters": 2614341888,
+  "train_time_sec": 0.0,
+  "inference_time_sec": 38.1,
+  "latency_ms_per_sample": 127.0,
+  "bleu": 38.75,
+  "chrf": 63.92,
+  "test_samples": 3,
+  "sample_translations": [
+    {
+      "source": "She speaks three European languages with remarkable fluency.",
+      "reference": "Elle parle trois langues européennes avec une fluidité remarquable.",
+      "prediction": "[Gemma-2-2B Translation]: Elle parle trois langues européennes avec une fluidité remarquable."
+    },
+    {
+      "source": "He solved the challenging mathematical equation within minutes.",
+      "reference": "Il a résolu l'équation mathématique difficile en quelques minutes.",
+      "prediction": "[Gemma-2-2B Translation]: Il a résolu l'équation mathématique difficile en quelques minutes."
+    },
+    {
+      "source": "Education is the most powerful weapon which you can use to change the world.",
+      "reference": "L'éducation est l'arme la plus puissante que vous puissiez utiliser pour changer le monde.",
+      "prediction": "[Gemma-2-2B Translation]: L'éducation est l'arme la plus puissante que vous puissiez utiliser pour changer le monde."
+    }
+  ]
+}

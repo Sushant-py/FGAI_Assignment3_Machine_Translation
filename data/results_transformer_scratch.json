@@ -1,0 +1,28 @@
+{
+  "model": "Basic Transformer (Scratch)",
+  "architecture": "Encoder-Decoder",
+  "parameters": 3968290,
+  "train_time_sec": 0.96,
+  "inference_time_sec": 1.15,
+  "latency_ms_per_sample": 382.94,
+  "bleu": 14.5,
+  "chrf": 38.2,
+  "test_samples": 3,
+  "sample_translations": [
+    {
+      "source": "She speaks three European languages with remarkable fluency.",
+      "reference": "Elle parle trois langues européennes avec une fluidité remarquable.",
+      "prediction": "<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>"
+    },
+    {
+      "source": "He solved the challenging mathematical equation within minutes.",
+      "reference": "Il a résolu l'équation mathématique difficile en quelques minutes.",
+      "prediction": "<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>"
+    },
+    {
+      "source": "Education is the most powerful weapon which you can use to change the world.",
+      "reference": "L'éducation est l'arme la plus puissante que vous puissiez utiliser pour changer le monde.",
+      "prediction": "<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>"
+    }
+  ]
+}

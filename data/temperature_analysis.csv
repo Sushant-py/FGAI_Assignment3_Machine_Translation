@@ -1,0 +1,5 @@
+temperature,decoding_mode,gemma_bleu,gemma_chrf,llama_bleu,llama_chrf,distinct_2_ratio,hallucination_risk,observation
+0.0,Greedy (Argmax),38.75,63.92,36.42,61.85,0.72,Very Low,"Highest precision, deterministic syntactic alignment, minimal hallucination."
+0.3,Conservative Sampling,37.9,63.1,35.8,61.2,0.78,Low,Slight variation in synonyms; high semantic fidelity maintained.
+0.7,Balanced Stochastic,33.15,58.45,30.9,56.3,0.86,Moderate,Higher lexical richness but lower n-gram reference overlap. Occasional idiom drift.
+1.0,High Entropy Sampling,25.4,50.12,22.8,47.9,0.94,High,"Degraded grammatical agreement, frequent word insertions and hallucinated content."

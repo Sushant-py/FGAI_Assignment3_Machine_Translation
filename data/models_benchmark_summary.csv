@@ -1,0 +1,5 @@
+Model,Architecture,Parameters (M),Adaptation Method,Training Time (s),Inference Latency (ms/sample),BLEU Score,chrF Score,Memory (VRAM/RAM)
+Basic Transformer (Scratch),Encoder-Decoder,1.14,Trained from Scratch,142.5,28.4,14.85,38.6,~1.2 GB
+mT5 (google/mt5-small),Encoder-Decoder,300.2,Supervised Fine-Tuning,385.4,49.33,32.84,57.19,~2.8 GB
+LLaMA-3.2-1B-Instruct,Decoder-Only,1235.81,Few-Shot Prompting / LoRA,0.0,74.83,36.42,61.85,~4.6 GB
+Gemma-2-2B-IT,Decoder-Only,2614.34,Few-Shot Prompting / LoRA,0.0,127.0,38.75,63.92,~6.2 GB
