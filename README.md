@@ -67,7 +67,7 @@ The project evaluates translation fidelity using standard quantitative metrics (
 ### 4.1 Prerequisites and Environment Setup
 Clone the repository and install required packages:
 ```bash
-git clone https://github.com/[your-username]/FGAI_Assignment3_Machine_Translation.git
+git clone https://github.com/Sushant-py/FGAI_Assignment3_Machine_Translation.git
 cd FGAI_Assignment3_Machine_Translation
 pip install -r requirements.txt
 ```

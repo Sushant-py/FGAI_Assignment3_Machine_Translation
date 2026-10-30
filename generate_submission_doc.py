@@ -11,14 +11,14 @@ import os
 import zipfile
 
 def create_submission_docx(
-    student_name: str = "[Your Full Name]",
-    reg_number: str = "[Your Registration Number]",
+    student_name: str = "Sushant Shekhar Sinha",
+    reg_number: str = "230953472",
     assignment_title: str = "Foundations of Generative AI (ICT4403) - Assignment 3",
     system_title: str = "Comparative Neural Machine Translation: Encoder-Decoder vs. Decoder-Only LLMs",
     dataset_name: str = "OPUS-Books English-French (en-fr) Parallel Corpus",
     dataset_link: str = "https://huggingface.co/datasets/opus_books",
-    github_link: str = "https://github.com/[your-username]/FGAI_Assignment3_Machine_Translation",
-    output_filename: str = "YourName_RegNum_FGAI_Assignment3.docx"
+    github_link: str = "https://github.com/Sushant-py/FGAI_Assignment3_Machine_Translation",
+    output_filename: str = "Sushant_Shekhar_Sinha_230953472_FGAI_Assignment3.docx"
 ):
     """Generates the standardized submission Word document."""
     

@@ -13,9 +13,9 @@ cells = []
 # Title & Metadata Markdown
 cells.append(nbf.v4.new_markdown_cell("""# Foundations of Generative AI (ICT4403)
 ## Assignment 3: Comparative Machine Translation Across Neural Architectures
-**Author / Student:** [Your Name]  
-**Registration Number:** [Your Registration Number]  
-**Repository:** [Your GitHub Repository URL]  
+**Author / Student:** Sushant Shekhar Sinha  
+**Registration Number:** 230953472  
+**Repository:** https://github.com/Sushant-py/FGAI_Assignment3_Machine_Translation  
 **Language Pair:** English (Source) $\\rightarrow$ French (Target)  
 **Dataset:** OPUS-Books (Helsinki-NLP / OPUS Multilingual Parallel Corpus)  
 **Evaluated Models:**
